@@ -11,7 +11,7 @@ print(df.head(n=47))
 # グラフ化
 plt.figure(figsize=(6, 6))
 
-# 例として、1つの列をグラフ化する（実際の列名に置き換える）
+# グラフ化する（実際の列名に置き換える）
 plt.plot(df['2009年'], label='2009 year')
 plt.plot(df['2023年'], label='2023 year')
 
